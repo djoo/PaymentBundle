@@ -23,7 +23,7 @@ Redirect to paypal
             'options' => array(
                 'env'           => 'sandbox',
                 'cmd'           => '_xclick',
-                'business'      => YOUR_BUSINESS,
+                'business'      => YOUR_BUSINESS, /*Paypal Adress Mail Vendor*/
                 'currency_code' => 'EUR',
                 'item_name'     => 'Chemise',
                 'amount'        => 1000,
